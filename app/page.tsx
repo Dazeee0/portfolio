@@ -692,9 +692,11 @@ export default function Home() {
               github.com/Dazeee0
             </a>
             <a href="https://www.linkedin.com/in/achmad-atha-431663368/" target="_blank" rel="noreferrer" className="contact-link">
-              <span className="contact-link-label">LinkedIn</span>
-              linkedin.com/in/achmad-atha-431663368/
-            </a>
+  <span className="contact-link-label">LinkedIn</span>
+  linkedin.com/in/achmad-atha-431663368/
+</a>   {/* ← this was missing */}
+
+<a href="https://discord.com" target="_blank" rel="noreferrer" className="contact-link">
           </div>
         </div>
       </section>
