@@ -697,6 +697,7 @@ export default function Home() {
 </a>   {/* ← this was missing */}
 
 <a href="https://discord.com" target="_blank" rel="noreferrer" className="contact-link">
+</a>
           </div>
         </div>
       </section>
