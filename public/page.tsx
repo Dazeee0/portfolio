@@ -694,11 +694,9 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/achmad-atha-431663368/" target="_blank" rel="noreferrer" className="contact-link">
               <span className="contact-link-label">LinkedIn</span>
               linkedin.com/in/achmad-atha-431663368/
-            </a>
-            <a href="https://discord.com/users/xeotrlaze" target="_blank" rel="noreferrer" className="contact-link">
+            <a href="https://discord.com" target="_blank" rel="noreferrer" className="contact-link">
               <span className="contact-link-label">Discord</span>
-              xeotrlaze
-            </a>
+              xeotrlaze</a>
           </div>
         </div>
       </section>
