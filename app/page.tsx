@@ -1,6 +1,6 @@
 "use client";
-import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect } from "react";
 
 type Project = {
@@ -84,15 +84,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -603,8 +594,8 @@ export default function Home() {
         <div className="about-grid">
           <div className="about-photo-col">
             <div className="about-photo-wrap">
-              {/* To add your photo: replace the div below with <img src="/photo.jpg" alt="Achmad Atha" /> */}
-              <img src="/photo.HEIC" alt="Achmad Atha" />
+              {/* To add your photo: replace the div below with <Image src="/photo.jpg" alt="Achmad Atha" fill /> */}
+              <Image src="/photo.HEIC" alt="Achmad Atha" fill />
             </div>
             <div className="about-photo-caption">— Achmad Atha · ID</div>
           </div>
